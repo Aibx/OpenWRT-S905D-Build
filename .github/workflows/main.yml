@@ -73,7 +73,7 @@ jobs:
         WHOAMI: 白色の物语
         ENABLE_WIFI_K510: 1
         OPENWRT_VER: R22.02.10
-        KERNEL_REPO_URL: https://github.com/Aibx/OpenWRT-Kernel/tree/main/opt/kernel
+        KERNEL_REPO_URL: https://github.com/Aibx/OpenWRT-S905D-Build/tree/main/opt/kernel
    
     - name: Check space usage
       if: (!cancelled())
