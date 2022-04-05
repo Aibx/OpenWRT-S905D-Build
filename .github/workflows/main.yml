@@ -62,7 +62,7 @@ jobs:
     - name: Download Firmware Files
       run: |
         cd opt/s905d
-        wget https://github.com/Aibx/OpenWRT-S905D/releases/latest/download/openwrt-armvirt-64-default-rootfs.tar.gz
+        wget https://github.com/Aibx/OpenWRT-S905D-TAR.GZ/releases/latest/download/openwrt-armvirt-64-default-rootfs.tar.gz
         
     - name: Package Armvirt as OpenWrt
       uses: unifreq/openwrt_packit@master
