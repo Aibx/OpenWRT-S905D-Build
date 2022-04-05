@@ -69,10 +69,10 @@ jobs:
       env:
         OPENWRT_ARMVIRT: opt/s905d/*.tar.gz
         PACKAGE_SOC: s905d
-        KERNEL_VERSION_NAME: 5.4.181_5.10.102_5.15.25_5.16.11
+        KERNEL_VERSION_NAME: 5.4.188_5.10.109_5.15.32_5.16.18
         WHOAMI: 白色の物语
         ENABLE_WIFI_K510: 1
-        OPENWRT_VER: R22.03.01
+        OPENWRT_VER: R22.04.01
         KERNEL_REPO_URL: https://github.com/Aibx/OpenWRT-S905D-Build/tree/main/opt/kernel
    
     - name: Check space usage
